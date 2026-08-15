@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Billy Autos | Rolls-Royce Collection</title>
+
+  <meta name="description"
+        content="Billy Autos — a premium Rolls-Royce automobile collection. Explore available Rolls-Royce models and book a private viewing.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script> 
+</head>
+
+<body>
+
+  <!-- ================= NAVIGATION ================= -->
+
+  <header class="header">
+    <nav class="navbar">
+
+      <a href="#" class="logo">
+        <span class="logo-mark">BA</span>
+        <span>
+          <strong>BILLY</strong>
+          <small>AUTOS</small>
+        </span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#collection">Collection</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <a href="#contact" class="nav-button">
+        Book a Viewing
+      </a>
+
+      <button class="menu-button" id="menuButton" aria-label="Open menu">
+        ☰
+      </button>
+
+    </nav>
+  </header>
+
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+
+        <p class="eyebrow">PRIVATE AUTOMOTIVE COLLECTION</p>
+
+        <h1>
+          The Art of
+          <span>Exceptional</span>
+          Motoring.
+        </h1>
+
+        <p class="hero-text">
+          Welcome to Billy Autos — a private collection dedicated
+          exclusively to the world's most distinguished Rolls-Royce
+          automobiles.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#collection" class="button primary">
+            Explore Collection
+          </a>
+
+          <a href="#contact" class="button secondary">
+            Request a Viewing
+          </a>
+
+        </div>
+
+        <div class="hero-stats">
+
+          <div>
+            <strong>08+</strong>
+            <span>Models</span>
+          </div>
+
+          <div>
+            <strong>RR</strong>
+            <span>Exclusive Brand</span>
+          </div>
+
+          <div>
+            <strong>24/7</strong>
+            <span>WhatsApp Concierge</span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="scroll-indicator">
+        <span></span>
+        Scroll to explore
+      </div>
+
+    </section>
+
+
+    <!-- ================= INTRO ================= -->
+
+    <section class="intro" id="about">
+
+      <div class="container intro-grid">
+
+        <div>
+          <p class="eyebrow">BILLY AUTOS</p>
+
+          <h2>
+            More than a car.
+            <em>A statement.</em>
+          </h2>
+        </div>
+
+        <div class="intro-text">
+
+          <p>
+            Billy Autos brings together an exclusive selection of
+            Rolls-Royce automobiles for clients who appreciate
+            craftsmanship, presence and extraordinary attention to detail.
+          </p>
+
+          <p>
+            From the commanding Cullinan to the elegant Phantom,
+            every vehicle in our collection represents a different
+            expression of luxury.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= COLLECTION ================= -->
+
+    <section class="collection" id="collection">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <div>
+            <p class="eyebrow">THE COLLECTION</p>
+
+            <h2>
+              Rolls-Royce
+              <span>Collection</span>
+            </h2>
+          </div>
+
+          <p>
+            Explore our selection of distinguished Rolls-Royce models.
+          </p>
+
+        </div>
+
+
+        <!-- FILTERS -->
+
+        <div class="filters">
+
+          <button class="filter active" data-filter="all">
+            All
+          </button>
+
+          <button class="filter" data-filter="phantom">
+            Phantom
+
+          </button>
+
+          <button class="filter" data-filter="cullinan">
+            Cullinan
+          </button>
+
+          <button class="filter" data-filter="ghost">
+            Ghost
+          </button>
+
+          <button class="filter" data-filter="spectre">
+            Spectre
+          </button>
+
+          <button class="filter" data-filter="wraith">
+            Wraith
+          </button>
+
+        </div>
+
+
+        <!-- INVENTORY -->
+
+        <div class="car-grid" id="carGrid">
+
+
+          <!-- PHANTOM -->
+
+          <article class="car-card" data-category="phantom">
+
+            <div class="car-image phantom">
+                <img src="" alt="">
+              <div class="">01</div>
+
+              <div class="car-name-overlay">
+                Rolls-Royce
+                <strong>Phantom</strong>
+              </div>
+            </div>
+
+            <div class="car-info">
+
+              <div class="car-top">
+                <span>2024</span>
+                <span>Luxury Sedan</span>
+              </div>
+
+              <h3>Phantom Series II</h3>
+
+              <p>
+                The definitive expression of Rolls-Royce luxury.
+              </p>
+
+              <div class="car-bottom">
+
+                <strong>$485,000</strong>
+
+                <button
+                  class="details-button"
+                  data-car="phantom">
+                  View Details →
+                </button>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- CULLINAN -->
+
+          <article class="card" data-category="cullinan">
+
+            <div class="car-image cullinan">
+              <img src="cullinan2.jpg" alt="Rolls-Royce cullinan-black">
+              <div class="car-name-overlay">
+                Rolls-Royce
+                <strong>Cullinan</strong>
+              </div>
+            </div>
+
+            <div class="car-info">
+
+              <div class="car-top">
+                <span>2024</span>
+                <span>Luxury SUV</span>
+              </div>
+
+              <h3>Cullinan</h3>
+
+              <p>
+                Effortless presence combined with extraordinary comfort.
+              </p>
+
+              <div class="car-bottom">
+
+                <strong>$425,000</strong>
+
+                <button
+                  class="details-button"
+                  data-car="cullinan">
+                  View Details →
+                </button>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- GHOST -->
+
+          <article class="car-card" data-category="ghost">
+
+            <div class="car-image ghost">
+              <div class="image-label">03</div>
+
+              <div class="car-name-overlay">
+                Rolls-Royce
+                <strong>Ghost</strong>
+              </div>
+            </div>
+
+            <div class="car-info">
+
+              <div class="car-top">
+                <span>2023</span>
+                <span>Luxury Sedan</span>
+              </div>
+
+              <h3>Ghost</h3>
+
+              <p>
+                Contemporary luxury with an understated character.
+              </p>
+
+              <div class="car-bottom">
+
+                <strong>$365,000</strong>
+
+                <button
+                  class="details-button"
+                  data-car="ghost">
+                  View Details →
+                </button>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- SPECTRE -->
+
+          <article class="car-card" data-category="spectre">
+
+            <div class="car-image spectre">
+              <div class="image-label">04</div>
+
+              <div class="car-name-overlay">
+                Rolls-Royce
+                <strong>Spectre</strong>
+              </div>
+            </div>
+
+            <div class="car-info">
+
+              <div class="car-top">
+                <span>2025</span>
+                <span>Electric Coupe</span>
+              </div>
+
+              <h3>Spectre</h3>
+
+              <p>
+                A new era of silent, electric Rolls-Royce performance.
+              </p>
+
+              <div class="car-bottom">
+
+                <strong>$470,000</strong>
+
+                <button
+                  class="details-button"
+                  data-car="spectre">
+                  View Details →
+                </button>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- WRAITH -->
+
+          <article class="car-card" data-category="wraith">
+
+            <div class="car-image wraith">
+              <div class="image-label">05</div>
+
+              <div class="car-name-overlay">
+                Rolls-Royce
+                <strong>Wraith</strong>
+              </div>
+            </div>
+
+            <div class="car-info">
+
+              <div class="car-top">
+                <span>2021</span>
+                <span>Grand Touring</span>
+              </div>
+
+              <h3>Wraith</h3>
+
+              <p>
+                A dramatic grand tourer built for effortless journeys.
+              </p>
+
+              <div class="car-bottom">
+
+                <strong>$295,000</strong>
+
+                <button
+                  class="details-button"
+                  data-car="wraith">
+                  View Details →
+                </button>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- DAWN -->
+
+          <article class="car-card" data-category="wraith">
+
+            <div class="car-image dawn">
+              <div class="image-label">06</div>
+
+              <div class="car-name-overlay">
+                Rolls-Royce
+                <strong>Dawn</strong>
+              </div>
+            </div>
+
+            <div class="car-info">
+
+              <div class="car-top">
+                <span>2021</span>
+                <span>Convertible</span>
+              </div>
+
+              <h3>Dawn</h3>
+
+              <p>
+                Open-air luxury designed for unforgettable drives.
+              </p>
+
+              <div class="car-bottom">
+
+                <strong>$315,000</strong>
+
+                <button
+                  class="details-button"
+                  data-car="dawn">
+                  View Details →
+                </button>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- BLACK BADGE -->
+
+          <article class="car-card" data-category="ghost">
+
+            <div class="car-image black-badge">
+              <div class="image-label">07</div>
+
+              <div class="car-name-overlay">
+                Rolls-Royce
+                <strong>Ghost Black Badge</strong>
+              </div>
+            </div>
+
+            <div class="car-info">
+
+              <div class="car-top">
+                <span>2024</span>
+                <span>Performance Sedan</span>
+              </div>
+
+              <h3>Ghost Black Badge</h3>
+
+              <p>
+                Darker, bolder and engineered with a more assertive spirit.
+              </p>
+
+              <div class="car-bottom">
+
+                <strong>$415,000</strong>
+
+                <button
+                  class="details-button"
+                  data-car="blackbadge">
+                  View Details →
+                </button>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- CULLINAN BLACK BADGE -->
+
+          <article class="car-card" data-category="cullinan">
+
+            <div class="car-image cullinan-black">
+              <div class="image-label">08</div>
+
+              <div class="car-name-overlay">
+                Rolls-Royce
+                <strong>Cullinan Black Badge</strong>
+              </div>
+            </div>
+
+            <div class="car-info">
+
+              <div class="car-top">
+                <span>2024</span>
+                <span>Performance SUV</span>
+              </div>
+
+              <h3>Cullinan Black Badge</h3>
+
+              <p>
+                The most commanding interpretation of the Cullinan.
+              </p>
+
+              <div class="car-bottom">
+
+                <strong>$465,000</strong>
+
+                <button
+                  class="details-button"
+                  data-car="cullinanblack">
+                  View Details →
+                </button>
+
+              </div>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <section class="experience">
+
+      <div class="container experience-grid">
+
+        <div class="experience-number">
+          01
+        </div>
+
+        <div>
+          <p class="eyebrow">THE BILLY AUTOS EXPERIENCE</p>
+
+          <h2>
+            A more personal
+            <span>way to buy.</span>
+          </h2>
+
+          <p class="experience-text">
+            We believe purchasing a Rolls-Royce should feel as
+            exceptional as driving one. Our private viewing process
+            is designed around your time, preferences and expectations.
+          </p>
+
+          <div class="experience-list">
+
+            <div>
+              <strong>01</strong>
+              <span>Private Viewing</span>
+            </div>
+
+            <div>
+              <strong>02</strong>
+              <span>Vehicle Consultation</span>
+            </div>
+
+            <div>
+              <strong>03</strong>
+              <span>Purchase Assistance</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CTA ================= -->
+
+    <section class="cta" id="contact">
+
+      <div class="container">
+
+        <p class="eyebrow">PRIVATE CONCIERGE</p>
+
+        <h2>
+          Your next Rolls-Royce
+          <span>starts here.</span>
+        </h2>
+
+        <p>
+          Tell us which model you're interested in and our
+          concierge team will assist you with availability,
+          pricing and private viewing arrangements.
+        </p>
+
+        <div class="cta-buttons">
+
+          <a
+            href="https://wa.me/233552829742?text=Hello%20Billy%20Autos%2C%20I%27m%20interested%20in%20a%20Rolls-Royce."
+            target="_blank"
+            class="button whatsapp">
+            WhatsApp Billy Autos
+          </a>
+
+          <a href="tel:+233552829742" class="button secondary">
+            Call 055 282 9742
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+
+    <div class="container footer-grid">
+
+      <div>
+
+        <a href="#" class="logo">
+          <span class="logo-mark">BA</span>
+
+          <span>
+            <strong>BILLY</strong>
+            <small>AUTOS</small>
+          </span>
+        </a>
+
+        <p class="footer-description">
+          A private automotive collection dedicated
+          exclusively to Rolls-Royce.
+        </p>
+
+      </div>
+
+      <div class="footer-links">
+
+        <h4>Explore</h4>
+
+        <a href="#home">Home</a>
+        <a href="#collection">Collection</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+
+      </div>
+
+      <div class="footer-contact">
+
+        <h4>Concierge</h4>
+
+        <a href="tel:+233552829742">
+          055 282 9742
+        </a>
+
+        <a
+          href="https://wa.me/233552829742"
+          target="_blank">
+          WhatsApp
+        </a>
+
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom container">
+
+      <span>
+        © 2026 Billy Autos. All rights reserved.
+      </span>
+
+      <span>
+        Rolls-Royce Collection
+      </span>
+
+    </div>
+
+  </footer>
+
+
+  <!-- ================= CAR MODAL ================= -->
+
+  <div class="modal" id="carModal">
+
+    <div class="modal-box">
+
+      <button class="modal-close" id="modalClose">
+        ×
+      </button>
+
+      <p class="eyebrow">VEHICLE DETAILS</p>
+
+      <h2 id="modalTitle">
+        Rolls-Royce Phantom
+      </h2>
+
+      <p id="modalDescription"></p>
+
+      <div class="modal-specs">
+
+        <div>
+          <span>MODEL</span>
+          <strong id="modalModel"></strong>
+        </div>
+
+        <div>
+          <span>YEAR</span>
+          <strong id="modalYear"></strong>
+        </div>
+
+        <div>
+          <span>TYPE</span>
+          <strong id="modalType"></strong>
+        </div>
+
+        <div>
+          <span>PRICE</span>
+          <strong id="modalPrice"></strong>
+        </div>
+
+      </div>
+
+      <a
+        id="modalWhatsapp"
+        href="#"
+        target="_blank"
+        class="button whatsapp modal-whatsapp">
+        Enquire on WhatsApp
+      </a>
+
+    </div>
+
+  </div>
+
+
+</body>
+</html>
